@@ -1,4 +1,4 @@
-const leapJS = require('leapjs-master\0.6.4.js');
+const leapJS = require('./leap-0.6.4');
 
 // setup Leap loop with frame callback function
 var controllerOptions = {};
