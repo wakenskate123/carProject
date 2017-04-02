@@ -43,10 +43,10 @@ Leap.loop(controllerOptions, function(frame){
 				var e = new KeyboardEvent('keydown',{'keyCode':40,'which':40}); // move car backward
 			}
 			else if (palmDepth < topLine && palmDepth > bottomLine && palmWidth < leftLine){
-				var e = new KeyboardEvent('keydown',{'keyCode':37,'which':37}); // move car to the left
+				var e = new KeyboardEvent('keydown',{'keyCode':37,'which':37}); // turn car to the left
 			}
 			else if (palmDepth < topLine && palmDepth > bottomLine && palmWidth > rightLine){
-				var e = new KeyboardEvent('keydown',{'keyCode':39,'which':39}); // move car to the right
+				var e = new KeyboardEvent('keydown',{'keyCode':39,'which':39}); // turn car to the right
 			}
 		}
 	}
